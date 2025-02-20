@@ -1,0 +1,30 @@
+.about-page {
+      padding: 30px;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    .about-page h1 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .about-page h2 {
+      color: #3498db;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .about-page ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .about-page li {
+      margin-bottom: 10px;
+    }
+
+    .about-page strong {
+      color: #2c3e50;
+    }

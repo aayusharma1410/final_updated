@@ -1,0 +1,16 @@
+.courses-page {
+      padding: 40px;
+    }
+
+    .courses-page h1 {
+      margin-bottom: 40px;
+      text-align: center;
+      color: #2c3e50;
+      font-size: 2.5rem;
+    }
+
+    .courses-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); /* Slightly wider cards */
+      gap: 35px;
+    }

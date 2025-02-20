@@ -1,0 +1,14 @@
+.learning-statistics {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+    }
+
+    .learning-statistics h2 {
+      margin-bottom: 25px;
+      color: #2c3e50;
+      text-align: center;
+      font-size: 2rem;
+    }

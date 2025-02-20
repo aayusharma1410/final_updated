@@ -1,0 +1,57 @@
+.test-paper {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+    }
+
+    .test-paper h2 {
+      margin-bottom: 30px;
+      text-align: center;
+      color: #2c3e50;
+      font-size: 2.4rem;
+    }
+
+    .timer {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #555;
+    }
+
+    .question {
+      margin-bottom: 40px;
+    }
+
+    .question textarea {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #bdc3c7; /* Light gray border */
+      border-radius: 8px;
+      resize: vertical;
+      font-size: 17px;
+      transition: border-color 0.3s ease;
+    }
+
+    .question textarea:focus {
+      border-color: #3498db; /* Blue border on focus */
+      outline: none;
+    }
+
+    .test-paper button {
+      background-color: #27ae60; /* Emerald green */
+      color: white;
+      border: none;
+      padding: 16px 22px; /* More padding */
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .test-paper button:hover {
+      background-color: #219653; /* Darker green on hover */
+    }

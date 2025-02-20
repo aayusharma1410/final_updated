@@ -1,0 +1,15 @@
+.query-page {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .query-page h1 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .query-cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }

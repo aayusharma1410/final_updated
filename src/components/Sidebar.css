@@ -1,0 +1,54 @@
+.sidebar {
+      width: 240px; /* Slightly wider sidebar */
+      background-color: #303f9f; /* A shade of Indigo */
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 0;
+      box-shadow: 3px 0 7px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+      z-index: 100; /* Ensure it's above other elements */
+    }
+
+    .logo {
+      font-size: 2.2rem; /* Slightly larger logo */
+      font-weight: 800; /* Thicker font weight */
+      margin-bottom: 40px;
+      color: #fff;
+      text-transform: uppercase; /* Uppercase logo text */
+      letter-spacing: 1px;
+    }
+
+    .sidebar nav ul {
+      list-style: none;
+      padding: 0;
+      width: 100%;
+    }
+
+    .sidebar nav li {
+      margin-bottom: 12px;
+      width: 100%;
+    }
+
+    .sidebar nav a {
+      color: #ecf0f1;
+      text-decoration: none;
+      font-size: 1.1rem; /* Slightly larger font */
+      display: flex;
+      align-items: center;
+      padding: 14px 25px; /* More padding */
+      transition: background-color 0.3s ease, color 0.3s ease;
+      border-radius: 7px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .sidebar nav a:hover {
+      background-color: rgba(255, 255, 255, 0.1); /* Lighter background on hover */
+      color: #fff;
+    }
+
+    .sidebar nav a i {
+      margin-right: 12px;
+      font-size: 1.3rem; /* Slightly larger icon */
+    }

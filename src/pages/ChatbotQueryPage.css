@@ -1,0 +1,11 @@
+.chatbot-query-page {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .chatbot-query-page h1 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }

@@ -1,0 +1,50 @@
+.dashboard {
+      padding: 40px;
+    }
+
+    .header-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .greeting h1 {
+      font-size: 2.8rem; /* Larger heading */
+      margin-bottom: 12px;
+      color: #2c3e50;
+    }
+
+    .greeting p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .stats {
+      display: flex;
+    }
+
+    .stat-box {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      margin-left: 25px;
+      text-align: center;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+      transition: transform 0.3s ease;
+    }
+
+    .stat-box:hover {
+      transform: translateY(-7px); /* More pronounced hover effect */
+    }
+
+    .stat-box h2 {
+      font-size: 2.2rem; /* Larger font */
+      margin-bottom: 7px;
+      color: #3498db; /* Bright blue */
+    }
+
+    .stat-box p {
+      font-size: 1.1rem;
+      color: #777;
+    }

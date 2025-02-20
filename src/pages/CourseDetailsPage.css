@@ -1,0 +1,20 @@
+.course-details-page {
+  padding: 20px;
+}
+
+.course-details-page h1 {
+  margin-bottom: 10px;
+}
+
+.lectures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.back-arrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #007bff;
+  text-decoration: none;
+}

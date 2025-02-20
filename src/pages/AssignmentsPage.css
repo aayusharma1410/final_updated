@@ -1,0 +1,17 @@
+.assignments-page {
+      padding: 40px;
+    }
+
+    .assignments-page h1 {
+      margin-bottom: 40px;
+      text-align: center;
+      color: #2c3e50;
+      font-size: 2.5rem;
+    }
+
+    .assignments-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); /* Slightly wider cards */
+      gap: 35px;
+      margin-bottom: 40px;
+    }
